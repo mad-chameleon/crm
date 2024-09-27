@@ -1,0 +1,66 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Trades</title>
+</head>
+<body>
+<div class="container">
+    <div class="spinner" id="spinner"></div>
+    <table>
+        <caption>Сделки</caption>
+        <thead>
+        <tr>
+            <th>Название</th>
+            <th>Бюджет</th>
+            <th>ID</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Сделка 1</td>
+            <td>15000 ₽</td>
+            <td>001</td>
+        </tr>
+        <tr>
+            <td>Сделка 2</td>
+            <td>25000 ₽</td>
+            <td>002</td>
+        </tr>
+        <tr>
+            <td>Сделка 3</td>
+            <td>30000 ₽</td>
+            <td>003</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-title">
+                <h2>Сделка №1</h2>
+                <button type="button" class="close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="spinner"></div>
+                <div class="card">
+                    <p><strong>ID:</strong> 12345</p>
+                    <p><strong>Дата:</strong> 27.09.2024</p>
+                    <div class="status-container">
+                        <p><strong>Статус ближайшей задачи: </strong></p>
+                        <svg width="20" height="20">
+                            <circle cx="10" cy="10" r="9" fill="green" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
