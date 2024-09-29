@@ -4,11 +4,6 @@
     padding: 20px;
 }
 
-caption {
-    padding-bottom: 20px;
-    text-align: left;
-}
-
 table {
     width: 100%;
     border-collapse: collapse;
@@ -90,7 +85,6 @@ tbody tr:nth-of-type(even):hover {
 }
 
 .card {
-    display: none;
     flex-direction: column;
     font-size: 24px;
 }
@@ -99,6 +93,11 @@ tbody tr:nth-of-type(even):hover {
     display: flex;
     align-items: center;
     gap: 4px;
+}
+
+.cardFeedback {
+    display: flex;
+    justify-content: center;
 }
 
 .spinner {
